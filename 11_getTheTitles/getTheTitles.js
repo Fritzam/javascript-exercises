@@ -1,7 +1,5 @@
 const getTheTitles = function(userArray) {
-    const titleArray = userArray.map(title => {
-        return title['title'];
-    });
+    const titleArray = userArray.map(title => title['title'])
     return titleArray;
 };
 
