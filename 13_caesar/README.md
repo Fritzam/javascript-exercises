@@ -29,5 +29,5 @@ caesar('Z', 1) // returns 'A'
 
 negative numbers should work as well:
 ```javascript
-caesar('Mjqqt, Btwqi!', -5) // returns 'Hello, World!'
+caesar('Mjqqt, Btwqi!', -5)  // returns 'Hello, World!'
 ```

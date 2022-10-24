@@ -1,0 +1,10 @@
+Krok 1: Jezeli string[i] jest litera, pchnij do tabeli unicode.
+Jesli nie, pchnij po prostu.
+
+Krok 2: Jesli element tablicy jest unicodem, zwieksz go o number. Jesli nie,
+nie rob z nim nic.
+Jesli unicode przekroczy wartości odpowiadajace Zz, zmien na wartosci
+odpowiadajace Aa i kontynuuj.
+
+Krok 3: Zmien unicode'y z powrotem na litery, inne znaki pomiń.
+Krok 4: Zlacz elementy tablicy w string i zwroc go.
